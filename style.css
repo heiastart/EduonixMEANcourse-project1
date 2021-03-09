@@ -15,3 +15,9 @@ li {
 li:hover {
   background-color: lightcyan;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
