@@ -7,7 +7,8 @@ const animals = [
   {"id":{"$oid":"60461f6efc13ae2ea6000005"},"animal":"Malagasy ground boa","scientific name":"Acrantophis madagascariensis","amount":12,"location":"Yako"},
   {"id":{"$oid":"60461f6efc13ae2ea6000006"},"animal":"Dunnart, fat-tailed","scientific name":"Smithopsis crassicaudata","amount":23,"location":"Arvidsjaur"},
   {"id":{"$oid":"60461f6efc13ae2ea6000007"},"animal":"Otter, african clawless","scientific name":"Aonyx capensis","amount":71,"location":"Zhize"},
-  {"id":{"$oid":"60461f6efc13ae2ea6000008"},"animal":"Reindeer, South-Norway","scientific name":"Reindeer norway","amount":71,"location":"Norway"}
+  {"id":{"$oid":"60461f6efc13ae2ea6000008"},"animal":"Reindeer, South-Norway","scientific name":"Rangifer tarandus","amount":71,"location":"Norway"},
+  {"id":{"$oid":"60461f6efc13ae2ea6000009"},"animal":"Norwegian Lynx","scientific name":"Lynx lynx","amount":71,"location":"Norway"}
 ]
 
 const animalElements = animals.map(animal => {
